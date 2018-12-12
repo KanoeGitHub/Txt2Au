@@ -4,8 +4,8 @@
 エンコードの種別、チャンネル数などの設定は[こちら](https://ja.wikipedia.org/wiki/Sunオーディオファイル)が参考になります。
 
 # 使い方
-* コンパイル：gcc -o Text2Au Text2Au.c
-* 実行： Text2Au < FILENAME.txt > < outputFileName.au >
+* コンパイル：gcc -o Txt2Au Txt2Au.c
+* 実行： Txt2Au < FILENAME.txt > < outputFileName.au >
 	* FILENAME.txt はPCMデータが書かれたテキストファイルの名前
 	* outputFileName.au 出力されるAUファイルの名前
 
